@@ -3,17 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body onload="window.scrollTo(0,0)">
     <!-- Navbar section -->
     <section class="navbar">
       <div class="navImg">
         <img src="imgs/my-img.jpg" />
       </div>
       <h1>Welcome To My Portfolio</h1>
-      <button>Contact Me</button>
+      <a href="#contactMe">
+        <button>Contact Me</button>
+      </a>
     </section>
     <!-- web face section -->
     <section class="face">
@@ -26,6 +32,7 @@
         <div class="words">
           <h1>Who I'm</h1>
           <p>
+            My name is "Baraa Ali" <br />
             I am a student at Zagazig University, Faculty of Science, and I am a
             web developer at .....
           </p>
@@ -40,8 +47,89 @@
       </div>
     </section>
     <!-- Skills section -->
-    <div class="container-2">
-      <section class="skills"></section>
-    </div>
+    <section class="skills">
+      <div class="title">
+        <h3>Skills</h3>
+        <p class="skillsDesc">I'm Educated :</p>
+      </div>
+      <div class="all">
+        <div class="html">
+          <p>HTML</p>
+          <img src="imgs/html-5.png" />
+        </div>
+        <div class="css">
+          <p>CSS</p>
+          <img src="imgs/css-3.png" />
+        </div>
+        <div class="js">
+          <p>JavaScript</p>
+          <img src="imgs/js.png" />
+        </div>
+      </div>
+      <div class="complete">
+        <div class="commandLine">
+          <p>Command Line</p>
+          <img src="imgs/command.png" />
+        </div>
+        <div class="git">
+          <p>Git</p>
+          <img src="imgs/git.png" />
+        </div>
+        <div class="github">
+          <p>Github</p>
+          <img src="imgs/github.png" />
+        </div>
+      </div>
+    </section>
+    <!-- final section "Contact" -->
+    <section class="contact" id="contactMe">
+      <div class="contact-icons">
+        <!-- رقم تليفون -->
+        <a href="tel:+201552906854" title="Call me">
+          <i class="fas fa-phone"></i>
+        </a>
+
+        <!-- إيميل -->
+        <a href="mailto:baraaali.baraa22@gmail.com" title="Send Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <!-- واتساب -->
+        <a
+          href="https://wa.me/201552906854"
+          target="_blank"
+          title="Chat on WhatsApp"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- لينكدإن -->
+        <a
+          href="https://www.linkedin.com/in/baraa-ali-1b018033b/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <!-- فيسبوك -->
+        <a
+          href="https://www.facebook.com/baraa.ali.880518"
+          target="_blank"
+          title="Facebook Profile"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <!-- جيتهاب -->
+        <a
+          href="https://github.com/Baraa-ali-creat"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
   </body>
 </html>
